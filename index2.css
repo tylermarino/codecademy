@@ -1,0 +1,64 @@
+* {
+  background-color: #000000;
+  font-family: arial, sans-serif;
+  box-sizing: border-box;
+}
+
+h1 {
+  color:#FFFFFF;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h2 {
+  color:#9000CC;
+  font-size: 40px;
+}
+
+h3 {
+  color: #FF66FF;
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 25px 0 0;
+  clear: both;
+}
+
+p, li {
+  color: #FFFFFF;
+  font-size: 16px;
+  margin: 10px auto;
+}
+
+.content {
+  margin: 100px;
+}
+
+/* only under style2 */
+.explanation {
+  width: 50%;
+  height: 100%;
+  float: left;
+  clear: left;
+}
+
+/* only under style2 */
+.example {
+  width: 50%;
+  height: 100%;
+  float: right;
+  clear: right;
+  padding-left: 50px;
+}
+
+#emphone {
+  color: #9000CC;
+}
+
+#emphtwo {
+  color: #00FF00;
+}
+
+#emphthree {
+  color: #eaff00;
+}

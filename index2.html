@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coding Notes 2 | Tyler</title>
+        <link href="./resources/css/index2.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header id="header">
+            <h1>Coding Notes</h1>
+        </header>
+        <section id="definitions" class="content">
+            <h2>Definitions</h2>
+            <div class="style1">
+                <div>
+                    <h3>HTML</h3>
+                    <p>HTML <span id="emphtwo">(HyperText Markup Language)</span> is used to give content to a web page and instructs web browsers on how to structure that content.</p>
+                </div>
+                <div>
+                    <h3>CSS</h3>
+                    <p>CSS <span id="emphtwo">(Cascading Style Sheets)</span> is a language that is used in combination with HTML that customizes how HTML elements will appear. CSS can define styles and change the layout and design of a sheet.</p>
+                </div>
+            </div>
+        </section>
+        <section id="elements" class="content">
+            <h2>HTML Elements</h2>
+            <div class="style2">
+                <div>
+                    <h3>Element Content</h3>
+                    <div class="explanation">
+                        <p>The content of an HTML element is the information between the opening and closing tags of an element.</p>
+                    </div>
+                    <div class="example">
+                        <p>&lt;<span id="emphone">h1</span>&gt;Codecademy is awesome! 🙂&lt;/<span id="emphone">h1</span>&gt;</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>&lt;li&gt; List Item Element</h3>
+                    <div class="explanation">
+                        <p>The <span id="emphtwo">&lt;li&gt;</span> list item element create list items inside:</p>
+                        <ul>
+                            <li>Ordered lists <span id="emphtwo">&lt;ol&gt;</span></li>
+                            <li>Unordered lists <span id="emphtwo">&lt;ul&gt;</span></li>
+                        </ul>
+                    </div>
+                    <div class="example">
+                        <p>&lt;<span id="emphone">ol</span>&gt;</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span id="emphone">li</span>&gt;Head east on Prince St&lt;/<span id="emphone">li</span>&gt;</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span id="emphone">li</span>&gt;Turn left on Elizabeth&lt;/<span id="emphone">li</span>&gt;</p>
+                        <p>&lt;/<span id="emphone">ol</span>&gt;</p>
+                        <br>
+                        <p>&lt;<span id="emphone">ul</span>&gt;</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span id="emphone">li</span>>Cookies&lt;/<span id="emphone">li</span>&gt;</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span id="emphone">li</span>>Milk&lt;/<span id="emphone">li</span>&gt;</p>
+                        <p>&lt;/<span id="emphone">ul</span>&gt;</p>
+                    </div>
+                </div>  
+                <div>
+                    <h3>&lt;video&gt; Video Element</h3>
+                    <div class="explanation">
+                        <p>The <span id="emphtwo">&lt;video&gt;</span> element embeds a media player for video playback. The <span id="emphtwo">src</span> attribute will contain the URL to the video. Adding the <span id="emphtwo">controls</span> attribute will display video controls in the media player.</p>
+                        <p><strong id="emphthree">Note:</strong> The content inside the opening and closing tag is shown as a fallback in browsers that don’t support the element.</p>
+                    </div>
+                    <div class="example">
+                        <p>&lt;<span id="emphone">video</span> <span id="emphtwo">src</span>="<span id="emphone">test-video.mp4</span>" <span id="emphtwo">controls</span>&gt;Video not supported&lt;/<span id="emphone">video</span>&gt;</p>
+                    </div>  
+                </div>
+                <div>
+                    <h3>&lt;em&gt; Emphasis Element</h3>
+                    <div class="explanation">
+                        <p>The <span id="emphtwo">&lt;em&gt;</span> element emphasizes text and browsers will usually <em id="emphtwo">italicize</em> the emphasized text by default.</p>
+                    </div>
+                    <div class="example">
+                        <p>&lt;<span id="emphone">p</span>&gt;This &lt;<span id="emphone">em</span>&gt;word&lt;/<span id="emphone">em</span>&gt; will be emphasized in italics.&lt;/<span id="emphone">p</span>&gt;</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>&lt;ol&gt; Ordered List Element</h3>
+                    <div class="explanation">
+                        <p>The <span id="emphtwo">&lt;ol&gt;</span> ordered list element creates a list of items in sequential order. Each list item appears numbered by default.</p>
+                    </div>
+                    <div class="example">
+                        <p>&lt;<span id="emphone">ol</span>&gt;</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span id="emphone">li</span>&gt;Preheat oven to 325 F 👩‍🍳&lt;/<span id="emphone">li</span>&gt;</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span id="emphone">li</span>&gt;Drop cookie dough 🍪&lt;/<span id="emphone">li</span>&gt;</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span id="emphone">li</span>&gt;Bake for 15 min ⏰&lt;/<span id="emphone">li</span>&gt;</p>
+                        <p>&lt;/<span id="emphone">ol</span>&gt;</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>&lt;div&gt; Div Element</h3>
+                    <div class="explanation">
+                        <p>The <span id="emphtwo">&lt;div&gt;</span> element is used as a container that divides an HTML document into sections and is short for “division”. <span id="emphtwo">&lt;div&gt;</span> elements can contain flow content such as headings, paragraphs, links, images, etc.</p>
+                    </div>
+                    <div class="example">
+                        <p>&lt;<span id="emphone">div</span>&gt;</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span id="emphone">h1</span>&gt;A section of grouped elements&lt;/<span id="emphone">h1</span>&gt;</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span id="emphone">p</span>&gt;Here’s some text for the section&lt;/<span id="emphone">p</span>&gt;</p>
+                        <p>&lt;/<span id="emphone">div</span>&gt;</p>
+                        <p>&lt;<span id="emphone">div</span>&gt;</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span id="emphone">h1</span>&gt;Second section of grouped elements&lt;/<span id="emphone">h1</span>&gt;</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span id="emphone">p</span>&gt;Here’s some text&lt;/<span id="emphone">p</span>&gt;</p>
+                        <p>&lt;/<span id="emphone">div</span>&gt;</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>HTML Structure</h3>
+                    <div class="explanation">
+                        <p>HTML is organized into a family tree structure. HTML elements can have parents, grandparents, siblings, children, grandchildren, etc.</p>
+                    </div>
+                    <div class="example">
+                        <p>&lt;<span id="emphone">body</span>&gt;</p>
+                        <p>&lt;<span id="emphone">div</span>&gt;</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span id="emphone">h1</span>&gt;It's div's child and body's grandchild&lt;/<span id="emphone">h1</span>&gt;</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span id="emphone">h2</span>&gt;It's h1's sibling&lt;/<span id="emphone">h2</span>&gt;</p>
+                        <p>&lt;/<span id="emphone">div</span>&gt;</p>
+                        <p>&lt;/<span id="emphone">body</span>&gt;</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>Closing Tag</h3>
+                    <div class="explanation">
+                        <p>An HTML closing tag is used to denote the end of an HTML element. The syntax for a closing tag is a left angle bracket <strong id="emphtwo">&lt;</strong> followed by a forward slash <strong id="emphtwo">/</strong> then the element name and a right angle bracket to close <strong id="emphtwo">&gt;</strong>.</p>
+                    </div>
+                    <div class="example">
+                        <p>&lt;<span id="emphone">body</span>&gt;</p>
+                        <p>. . .</p>
+                        <p>&lt;/<span id="emphone">body</span>&gt;</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>Attribute Name and Values</h3>
+                    <div class="explanation">
+                        <p>HTML attributes consist of a name and a value using the following syntax: <span id="emphtwo">name="value"</span> and can be added to the opening tag of an HTML element to configure or change the behavior of the element.</p>
+                    </div>
+                    <div class="example">
+                        <p>&lt;<span id="emphone">elementName</span> <span id="emphtwo">name</span>="<span id="emphone">value</span>"&gt;&lt;/<span id="emphone">elementName</span>&gt;</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>&lt;br&gt; Line Break Element</h3>
+                    <div class="explanation">
+                        <p>The <span id="emphtwo">&lt;br&gt;</span> line break element will create a line break in text and is especially useful where a division of text is required, like in a postal address. The line break element requires only an opening tag and must not have a closing tag.</p>
+                    </div>
+                    <div class="example">
+                        <p>A line break haiku.&lt;<span id="emphone">br</span>&gt;</p>
+                        <p>Poems are a great use case.&lt;<span id="emphone">br</span>&gt;</p>
+                        <p>Oh joy! A line break.</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>&lt;img&gt; Image Element</h3>
+                    <div class="explanation">
+                        <p>HTML image <span id="emphtwo">&lt;img&gt;</span> elements embed images in documents. The <span id="emphtwo">src</span> attribute contains the image URL and is mandatory. <span id="emphtwo">&lt;img&gt;</span> is an empty element meaning it should not have a closing tag.</p>
+                    </div>
+                    <div class="example">
+                        <p>&lt;<span id="emphone">img</span> <span id="emphtwo">src</span>="<span id="emphone">image.png</span>"&gt;</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>&lt;h1&gt;-&lt;h6&gt; Heading Elements</h3>
+                    <div class="explanation">
+                        <p>HTML can use six different levels of heading elements. The heading elements are ordered from the highest level <span id="emphtwo">&lt;h1&gt;</span> to the lowest level <span id="emphtwo">&lt;h6&gt;</span>.</p>
+                    </div>
+                    <div class="example">
+                        <p>&lt;<span id="emphone">h1</span>&gt;Breaking News&lt;/<span id="emphone">h1</span>&gt;</p>
+                        <p>&lt;<span id="emphone">h2</span>&gt;This is the 1st subheading&lt;/<span id="emphone">h2</span>&gt;</p>
+                        <p>&lt;<span id="emphone">h3</span>&gt;This is the 2nd subheading&lt;/<span id="emphone">h3</span>&gt;</p>
+                        <p>. . .</p>
+                        <p>&lt;<span id="emphone">h6</span>&gt;This is the 5th subheading&lt;/<span id="emphone">h6</span>&gt;</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>&lt;p&gt; Paragraph Element</h3>
+                    <div class="explanation">
+                        <p>The <span id="emphtwo">&lt;p&gt;</span> paragraph element contains and displays a block of text.</p>
+                    </div>
+                    <div class="example">
+                        <p>&lt;<span id="emphone">p</span>&gt;This is a block of text! Lorem ipsum dolor sit amet, consectetur adipisicing elit.&lt;/<span id="emphone">p</span>&gt;</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>Unique ID Attributes</h3>
+                    <div class="explanation">
+                        <p>In HTML, specific and unique <span id="emphtwo">id</span> attributes can be assigned to different elements in order to differentiate between them.</p>
+                        <p>When needed, the <span id="emphtwo">id</span> value can be called upon by CSS and JavaScript to manipulate, format, and perform specific instructions on that element and that element only. Valid <span id="emphtwo">id</span> attributes should begin with a letter and should only contain letters (<span id="emphtwo">a-Z</span>), digits (<span id="emphtwo">0-9</span>), hyphens (<strong id="emphtwo">-</strong>), underscores (<strong id="emphtwo">_</strong>), and periods (<strong id="emphtwo">.</strong>).</p>
+                    </div>
+                    <div class="example">
+                        <p>&lt;<span id="emphone">h1</span> <span id="emphtwo">id</span>="<span id="emphone">A1</span>"&gt;Hello World&lt;<span id="emphone">h1</span>&gt;</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>HTML Attributes</h3>
+                    <div class="explanation">
+                        <p>HTML attributes are values added to the opening tag of an element to configure the element or change the element’s default behavior. In the provided example, we are giving the <span id="emphtwo">&lt;p&gt;</span> (paragraph) element a unique identifier using the <span id="emphtwo">id</span> attribute and changing the color of the default text using the <span id="emphtwo">style</span> attribute.</p>
+                    </div>
+                    <div class="example">
+                        <p>&lt;<span id="emphone">p</span> <span id="emphtwo">id</span>="<span id="emphone">my-paragraph</span>" <span id="emphtwo">style</span>="<span id="emphone">color: green;</span>"&gt;Here’s some text for a paragraph that is being altered by HTML attributes&lt;/<span id="emphone">p</span>&gt;</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>&lt;ul&gt; Unordered List Element</h3>
+                    <div class="explanation">
+                        <p>The <span id="emphtwo">&lt;ul&gt;</span> unordered list element is used to create a list of items in no particular order. Each individual list item will have a bullet point by default.</p>
+                    </div>
+                    <div class="example">
+                        <p>&lt;<span id="emphone">ul</span>&gt;</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span id="emphone">li</span>&gt;Play more music 🎸&lt;/<span id="emphone">li</span>&gt;</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span id="emphone">li</span>&gt;Read more books 📚&lt;/<span id="emphone">li</span>&gt;</p>
+                        <p>&lt;/<span id="emphone">ul</span>&gt;</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>alt Attribute</h3>
+                    <div class="explanation">
+                        <p>An <span id="emphtwo">&lt;img&gt;</span> element can have alternative text via the <span id="emphtwo">alt</span> attribute. The alternative text will be displayed if an image fails to render due to an incorrect URL, if the image format is not supported by the browser, if the image is blocked from being displayed, or if the image has not been received from the URL.</p>
+                        <p>The text will be read aloud if screen reading software is used and helps support visually impaired users by providing a text descriptor for the image content on a webpage.</p>
+                    </div>
+                    <div class="example">
+                        <p>&lt;<span id="emphone">img</span> <span id="emphtwo">src</span>="<span id="emphone">path/to/image</span>" <span id="emphtwo">alt</span>="<span id="emphone">text describing image</span>" /&gt;</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>&lt;body&gt; Body Element</h3>
+                    <div class="explanation">
+                        <p>The <span id="emphtwo">&lt;body&gt;</span> element represents the content of an HTML document. Content inside <span id="emphtwo">&lt;body&gt;</span> tags are rendered on the web browsers.</p>
+                        <p><strong id="emphthree">Note:</strong> There can be only one <span id="emphtwo">&lt;body&gt;</span> element in a document.</p>
+                    </div>
+                    <div class="example">
+                        <p>&lt;<span id="emphone">body</span>&gt;</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span id="emphone">h1</span>&gt;Learn to code with Codecademy :)&lt;/<span id="emphone">h1</span>&gt;</p>
+                        <p>&lt;/<span id="emphone">body</span>&gt;</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>&lt;span&gt; Span Element</h3>
+                    <div class="explanation">
+                        <p>The <span id="emphtwo">&lt;span&gt;</span> element is an inline container for text and can be used to group text for styling purposes. However, as <span id="emphtwo">&lt;span&gt;</span> is a generic container to separate pieces of text from a larger body of text, its use should be avoided if a more semantic element is available.</p>
+                    </div>
+                    <div class="example">
+                        <p>&lt;<span id="emphone">p</span>&gt;&lt;<span id="emphone">span</span>&gt;This text&lt;/<span id="emphone">span</span>&gt; may be styled differently than the surrounding text.&lt;/<span id="emphone">p</span>&gt;</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>&lt;strong&gt; Strong Element</h3>
+                    <div class="explanation">
+                        <p>The <span id="emphtwo">&lt;strong&gt;</span> element highlights important, serious, or urgent text and browsers will normally render this highlighted text in <strong id="emphtwo">bold</strong> by default.</p>
+                    </div>
+                    <div class="example">
+                        <p>&lt;<span id="emphone">p</span>&gt;This is &lt;<span id="emphone">strong</span>&gt;important&lt;/<span id="emphone">strong</span>&gt; text!&lt;/<span id="emphone">p</span>&gt;</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>HTML Element</h3>
+                    <div class="explanation">
+                        <p>An HTML element is a piece of content in an HTML document and uses the following syntax: opening tag + content + closing tag. In the code provided:</p>
+                        <ul>
+                            <li><span id="emphtwo">&lt;p&gt;</span> is the opening tag.</li>
+                            <li><span id="emphtwo">Hello World!</span> is the content.</li>
+                            <li><span id="emphtwo">&lt;/p&gt;</span> is the closing tag.</li>
+                        </ul>
+                    </div>
+                    <div class="example">
+                        <p>&lt;<span id="emphone">p</span>&gt;Hello World!&lt;/<span id="emphone">p</span>&gt;</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>HTML Tag</h3>
+                    <div class="explanation">
+                        <p>The syntax for a single HTML tag is an opening angle bracket <strong id="emphtwo">&lt;</strong> followed by the element name and a closing angle bracket <strong id="emphtwo">&gt;</strong>. Here is an example of an opening <span id="emphtwo">&lt;div&gt;</span> tag.</p>
+                    </div>
+                    <div class="example">
+                        <p>&lt;<span id="emphone">div</span>&gt;</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer"></footer>
+    </body>
+</html>
